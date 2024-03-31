@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa; /* Cambia el color de fondo de toda la página */
+}
+
+header {
+    background-color: #007bff; /* Color de fondo para la cabecera */
+    color: white; /* Color del texto para la cabecera */
+    padding: 20px 0; /* Espaciado interno para la cabecera */
+    text-align: center; /* Centra el texto de la cabecera */
+}
+header, footer {
+    padding: 20px 0; /* Espaciado interno (ya manejado por las clases de Bootstrap) */
+}
+textarea {
+    width: 100%; /* Ajusta el ancho del textarea al 100% del contenedor padre */
+    max-width: 600px; /* Ancho máximo para que no sea demasiado grande */
+    height: auto; /* La altura se ajusta automáticamente según el número de filas */
+    margin-bottom: 10px; /* Espacio debajo del textarea */
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+input[type="text"] {
+    width: 50%; /* Ancho relativo al contenedor */
+    max-width: 600px; /* Ancho máximo para no ser demasiado grande */
+    margin-bottom: 10px; /* Espacio debajo del input */
+}
+button {
+    padding: 10px 20px; /* Ajustar el espaciado interno si es necesario */
+    margin-bottom: 10px; /* Espacio debajo del botón */
+}
+footer {
+    width: 100%;
+    background-color: #333; /* Color de fondo para el pie de página */
+    color: white; /* Color del texto para el pie de página */
+    padding: 10px 0; /* Espaciado interno para el pie de página */
+    text-align: center; /* Centra el texto del pie de página */
+}
